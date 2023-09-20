@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1A6E66;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23A3CFDD'/%3E%3Cstop offset='1' stop-color='%231A6E66'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FFFFFF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FFFFFF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.26'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Estilo para el logo */
+.header img {
+  max-width: 130px; /* Ajusta el tamaño máximo del logo según tus preferencias */
+}
+
+.header {
+  background-color: #a4bae9;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Alineamos el contenido al espacio entre los elementos */
+  align-items: center;
+  padding: 0; /* Ajusta el padding vertical (arriba y abajo) y horizontal (izquierda y derecha) */
+}
+
+/* Estilo para el menú de navegación en dispositivos grandes */
+.header nav ul {
+  list-style: none;
+  margin: 40px;
+  padding: 0;
+  display: flex;
+}
+
+.header nav li {
+  margin-right: 40px;
+}
+
+/* Alineamos el logo a la izquierda */
+.header img {
+  margin-right: 20px;
+}
+
+/* Estilo para el menú de navegación en dispositivos pequeños (responsivo) */
+@media (max-width: 768px) {
+  .header nav ul {
+      flex-direction: column; /* Cambiamos la dirección de flex a columna */
+      align-items: center; /* Centramos los elementos verticalmente */
+  }
+
+  .header nav li {
+      margin-right: 0; /* Eliminamos el margen derecho */
+      margin-bottom: 10px; /* Agregamos espacio entre elementos en dispositivos pequeños */
+  }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Estilos para los enlaces del menú */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Agregar transición de 0.3 segundos para el color */
+}
+
+/* Efecto de cambio de color al pasar el cursor sobre los enlaces */
+nav ul li a:hover {
+  color: rgb(200, 200, 200); /* Cambiar el color al pasar el cursor sobre el enlace */
+}
+
+
+
+
+/* Estilo para sección de inicio */
+#inicio {
+  padding: 20px;
+  margin: 30px auto; /* Centra horizontalmente la sección */
+  text-align: justify; /* Alinea el texto en ambos lados */
+  border: 5px solid aqua;
+  max-width: 800px; /* Establece un ancho máximo para que sea responsivo */
+}
+
+#inicio h2 {
+  font-size: 1.5rem; /* Tamaño de fuente para el título */
+  margin-bottom: 20px;
+}
+
+#inicio p {
+  font-size: 1rem; /* Tamaño de fuente para el texto */
+  line-height: 1.5; /* Espaciado entre líneas */
+  margin-bottom: 15px; /* Espaciado entre párrafos */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  #inicio {
+    padding: 10px;
+    margin: 20px auto; /* Ajusta el margen para dispositivos más pequeños */
+  }
+
+  #inicio h2 {
+    font-size: 1.3rem; /* Reducción del tamaño de fuente para dispositivos pequeños */
+  }
+
+  #inicio p {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+#menu{
+  border: 5px solid aqua;
+}
+/* Estilos específicos */
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* espacio para el footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
