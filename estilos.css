@@ -82,9 +82,9 @@ nav ul li a:hover {
 /* Estilo para sección de inicio */
 #inicio {
   padding: 20px;
-  margin: 30px auto; /* Centra horizontalmente la sección */
+  margin: 20px auto; /* Centra horizontalmente la sección */
   text-align: justify; /* Alinea el texto en ambos lados */
-  border: 5px solid aqua;
+/*  border: 2px solid aqua; */
   max-width: 800px; /* Establece un ancho máximo para que sea responsivo */
 }
 
@@ -118,25 +118,29 @@ nav ul li a:hover {
 
 
 
-.logos{
-  border: solid 2px aquamarine;
+.logos {
+  border: solid 2px rgb(158, 157, 157);
   margin: 0;
   padding: 120px;
-  background-color: #86c7ff; 
+  background-color: #86c7ff;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
+.logos h1 {
+  margin: 0 auto; /* Centra horizontalmente el h1 */
+  font-style: italic;
+}
 
 .logoss {
   width: 190px; /* Ancho del círculo */
   height: 190px; /* Altura del círculo */
-  border: 2px solid #86c7ff; /* Borde blanco */
+ /*   border: 2px solid #86c7ff; /* Borde blanco */ 
   border-radius: 50%; /* Borde redondeado para crear un círculo */
   overflow: hidden; /* Oculta cualquier contenido que se extienda fuera del círculo */
-  margin: 0;
+  margin-right: 20px; /* Espacio a la derecha del círculo */
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .logoss img {
@@ -147,10 +151,21 @@ nav ul li a:hover {
 
 
 
-
-#menu{
-  border: 5px solid aqua;
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco transparente */
+  color: black; /* Color del texto */
+  padding: 5px; /* Espaciado interno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  
 }
+.carousel-caption a{
+  color: black; 
+  text-decoration: none; 
+}
+
+
+
+
 /* Estilos específicos */
 .menu-item {
   border-bottom: 1px solid #ccc;
@@ -158,10 +173,99 @@ nav ul li a:hover {
   margin-bottom: 1rem;
 }
 
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+
+}
+
+h2 {
+  text-align: center;
+  color: #ff6f61;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-item {
+  background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco transparente */
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+  text-align: center;
+  color: #ff6f61;
+}
+
+.menu-item p {
+
+  justify-content: space-between; /* Alineamos el contenido al espacio entre los elementos */
+  color: #666;
+  margin: 30px;
+}
+
+
+
+
 /* espacio para el footer */
 .footer {
-  background-color: #333;
-  color: white;
+  display: grid;
+  border: solid 2px rgb(158, 157, 157);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#redes a{
+  color: transparent;
+  text-decoration: none; 
+}
+
+#bajo{
+  color: #666;
+  text-align: center;
+}
+
+#contacto, #info, #redes {
+  height: 150px; /* Puedes ajustar esta altura según tus necesidades */
+}
+
+
+
+/* Estilos para dispositivos de pantalla pequeña (hasta 768px) */
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+
+  /* Otros estilos específicos para dispositivos de pantalla pequeña */
+  #contacto, #info, #redes {
+    height: auto; /* Altura automática para adaptarse al contenido */
+  }
+
+  #bajo {
+    font-size: 0.8rem; /* Reducción del tamaño de fuente para dispositivos pequeños */
+  }
+
+  /* ... otros estilos ... */
+}
+
+#info a {
+  display: block; /* Hace que los enlaces sean bloques, uno arriba del otro */
+  margin-bottom: 10px; /* Espacio entre los enlaces */
 }
