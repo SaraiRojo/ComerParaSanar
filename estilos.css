@@ -12,7 +12,7 @@ background-size: cover; background-attachment: fixed;
 
 /* Estilo para el logo */
 .header img {
-  max-width: 130px; /* Ajusta el tamaño máximo del logo según tus preferencias */
+  max-width: 130px; /* Ajusta el tamaño máximo del logo  */
 }
 
 .header {
@@ -136,11 +136,7 @@ nav ul li a:hover {
 .logoss {
   width: 190px; /* Ancho del círculo */
   height: 190px; /* Altura del círculo */
- /*   border: 2px solid #86c7ff; /* Borde blanco */ 
-  border-radius: 50%; /* Borde redondeado para crear un círculo */
   overflow: hidden; /* Oculta cualquier contenido que se extienda fuera del círculo */
-  margin-right: 20px; /* Espacio a la derecha del círculo */
-  background-color: #ffffff;
 }
 
 .logoss img {
@@ -268,4 +264,9 @@ ul {
 #info a {
   display: block; /* Hace que los enlaces sean bloques, uno arriba del otro */
   margin-bottom: 10px; /* Espacio entre los enlaces */
+}
+
+
+.card_ee{
+  margin: 0px;
 }
