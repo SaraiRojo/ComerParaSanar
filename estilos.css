@@ -15,14 +15,6 @@ background-size: cover; background-attachment: fixed;
   max-width: 130px; /* Ajusta el tamaño máximo del logo  */
 }
 
-.header {
-  background-color: #f0f0f0;
-  color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between; /* Alineamos el contenido al espacio entre los elementos */
-  align-items: center;
-  padding: 0; /* Ajusta el padding vertical (arriba y abajo) y horizontal (izquierda y derecha) */
-}
 
 /* Estilo para el menú de navegación en dispositivos grandes */
 .header nav ul {
@@ -63,20 +55,6 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
-
-/* Estilos para los enlaces del menú */
-nav ul li a {
-  color: rgb(0, 0, 0); /* color de las letras */
-  text-decoration: none;
-  transition: color 0.3s; /* Agregar transición de 0.3 segundos para el color */
-}
-
-/* Efecto de cambio de color al pasar el cursor sobre los enlaces */
-nav ul li a:hover {
-  color: rgb(200, 200, 200); /* Cambiar el color al pasar el cursor sobre el enlace */
-}
-
-
 
 
 /* Estilo para sección de inicio */
