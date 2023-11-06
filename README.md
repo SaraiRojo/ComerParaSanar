@@ -21,3 +21,6 @@ Apreciamos la contribución de expertos en salud y nutrición. Si deseas colabor
 ## Contacto
 Si tienes alguna pregunta, comentario o sugerencia, por favor contáctanos a través de nuestro formulario de contacto en la página "Contáctanos" o envíanos un correo electrónico a [l20070008@huetamo.tecnm.mx](mailto:l20070008@huetamo.tecnm.mx).
 ¡Gracias por visitar nuestra página informativa sobre salud y alimentos! Esperamos que encuentres información valiosa que te ayude a mejorar tu bienestar y adoptar hábitos alimenticios más saludables.
+
+Sitio Web en el que permite visualizar informacion sobre una lista de los
+alimentos mas dañinos y algunos consejos.
